@@ -1,4 +1,4 @@
-# Judul Proyek
+# Job Portal Landing Page with Responsive Navbar
 
 tampilan navigation bar sederhana yang memanfaatkan media query agar responsive. diambil dari inspirasi job portal di pinterest.
 
@@ -11,5 +11,7 @@ Untuk menggunakan proyek ini, ikuti langkah-langkah berikut...
 2. Buka file `index.html` di browser Anda.
 
 ## Screenshot
+tampilan potrait: 
 ![Tampilan Aplikasi](src/potrait.png)
+tampilan landscape: 
 ![Tampilan Aplikasi](src/landscape.png)
