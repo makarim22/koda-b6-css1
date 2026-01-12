@@ -12,6 +12,6 @@ Untuk menggunakan proyek ini, ikuti langkah-langkah berikut...
 
 ## Screenshot
 tampilan potrait: 
-![Tampilan Aplikasi](src/potrait.png)
+![Tampilan Aplikasi](src/potrait2.png)
 tampilan landscape: 
-![Tampilan Aplikasi](src/landscape.png)
+![Tampilan Aplikasi](src/landscape2.png)
