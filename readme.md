@@ -2,7 +2,7 @@
 
 tampilan navigation bar sederhana yang memanfaatkan media query agar responsive. diambil dari inspirasi job portal di pinterest.
 
-![Logo Proyek](src/inspiration.png)
+![Logo Proyek](src/inspiration.jpg)
 
 ## Cara Menggunakan
 Untuk menggunakan proyek ini, ikuti langkah-langkah berikut...
