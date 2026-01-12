@@ -3,6 +3,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
 ul {
     list-style-type: none;  
     margin: 0;
@@ -55,21 +60,7 @@ nav ul img {
     font-weight: normal;
     margin-bottom: 10px;
 }
-@media screen and (max-width: 768px) {
-    ul {
-        flex-direction: column; 
-        width: 100%; 
-    }
 
-    ul li {
-        margin: 5px 0; 
-    }
-
-    ul li a {
-        padding: 10px; 
-        text-align: center; 
-    }
-}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -85,6 +76,15 @@ body {
 .left-side {
     flex: 1;
     padding: 20px;
+}
+
+.left-side span {
+    margin-bottom: 10px;
+}
+
+.left-side span:last-child {
+    padding: 10px 20px;
+    background-color: green;
 }
 
 .right-side {
@@ -104,12 +104,66 @@ body {
     background-color: rgb(69, 146, 69);
     color: white;
 }
+
 @media screen and (max-width: 768px) {
-    .main-container {
-        flex-direction: column;
+    ul {
+        flex-direction: column; 
+        width: 100%; 
     }
 
-    .left-side, .right-side {
-        padding: 10px;
+    ul li {
+        margin: 5px 0; 
     }
+
+    ul li a {
+        padding: 10px; 
+        text-align: center; 
+    }
+
+    .container{
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        align-items: center;
+    }
+    
+}
+
+.container {
+    display: flex;
+    gap: 30px; 
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 200px; 
+    transition: transform 0.3s;
+}
+
+.card.active {
+    background-color: #4CAF50; 
+    color: white;
+    border: none; 
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card p {
+    color: #555;
+}
+
+.icon {
+    margin-bottom: 12px; 
+}
+
+.card img {
+    width: 50px; 
 }
