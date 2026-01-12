@@ -1,41 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 ul {
     list-style-type: none;  
     margin: 0;
     padding: 0;
-    background-color: blanchedalmond;
-    overflow: hidden;   
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
 
 ul li {
-    display: inline-block; 
+    display: flex;
 }
 
 ul li a {
     display: block; 
-    color: black;
+    color: black; 
     text-align: center; 
     padding: 14px 16px; 
     text-decoration: none; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s;
 }
 
 ul li a:hover {
-    background-color: wheat; 
+    background-color: whitesmoke; 
+    color: burlywood;
 }
 
+nav ul img {
+    width: 80px; 
+    height: 80px
+}
 
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(85, 199, 85);
+}
+
+.title2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
 @media screen and (max-width: 768px) {
     ul {
-        display: block; 
-        width: 100px; 
+        flex-direction: column; 
+        width: 100%; 
     }
 
     ul li {
-        display: block;
-        margin-left: 0; 
+        margin: 5px 0; 
     }
 
     ul li a {
         padding: 10px; 
+        text-align: center; 
+    }
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-list2 {
+    background-color: greenyellow;
+}
+@media screen and (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .left-side, .right-side {
+        padding: 10px;
     }
 }
